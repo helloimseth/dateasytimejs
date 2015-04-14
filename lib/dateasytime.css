@@ -1,0 +1,49 @@
+.dateasytime-picker figure, .dateasytime-picker h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.group:after {
+  content: "",
+  clear: both,
+  display: block;
+}
+
+.dateasytime-picker {
+    width: 200px;
+    height: 30px;
+    border: 1px solid grey;
+    position: relative;
+}
+
+.dateasytime-picker-box {
+  position: absolute;
+  height: 200px;
+  width: 202px;
+  background: #eaeaea;
+  top: 30px;
+  left: -1px;
+  text-align: center;
+}
+
+.dateasytime-calendar {
+  width: 190px;
+  margin: auto;
+}
+
+.dateasytime-calendar li {
+  width: 23px;
+  margin: 2px;
+  background: green;
+  color: white;
+  text-align: center;
+  float: left;
+}
+
+.next {
+  float: right;
+}
+
+.prev {
+  float: left;
+}

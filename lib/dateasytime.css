@@ -34,10 +34,14 @@
 .dateasytime-calendar li {
   width: 23px;
   margin: 2px;
-  background: green;
-  color: white;
+  color: black;
   text-align: center;
   float: left;
+}
+
+.dateasytime-calendar li:hover {
+  background-color: black;
+  color: white;
 }
 
 .next {

@@ -39,10 +39,11 @@
   float: left;
 }
 
-.dateasytime-calendar li:hover {
-  background-color: black;
+.dateasytime-calendar li.selected {
+  background-color: red;
   color: white;
 }
+
 
 .next {
   float: right;

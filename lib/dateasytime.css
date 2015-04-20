@@ -4,8 +4,8 @@
 }
 
 .group:after {
-  content: "",
-  clear: both,
+  content: "";
+  clear: both;
   display: block;
 }
 
@@ -44,6 +44,9 @@
   color: white;
 }
 
+.dateasytime-picker-box section {
+  /*display: block;*/
+}
 
 .next {
   float: right;

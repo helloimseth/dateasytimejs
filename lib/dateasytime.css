@@ -48,10 +48,16 @@
   /*display: block;*/
 }
 
-.next {
+.dateasytime-button-next {
   float: right;
 }
 
-.prev {
+.dateasytime-button-prev {
   float: left;
+}
+
+.dateasytime-button-xout {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
 }
